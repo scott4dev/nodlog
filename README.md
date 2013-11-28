@@ -1,4 +1,4 @@
 nodlog
 ======
 
-Log server running on node.js
+A log server running on node.js
