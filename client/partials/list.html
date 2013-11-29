@@ -1,13 +1,15 @@
-<table class="table table-striped table-hover table-bordered">
-  <thead>
-    <th>Id</th>
-    <th>Date</th>
-    <th>Description</th>
-  </thead>
-
-  <tr ng-repeat="log in logs">
-    <td>{{log.id}}</td>
-    <td>{{log.date}}</td>
-    <td>{{log.description}}</td>
-  </tr>
-</table>
+<div class="row">
+  <table class="table table-striped table-hover table-bordered">
+    <thead>
+      <th>Id</th>
+      <th>Date</th>
+      <th>Description</th>
+    </thead>
+  
+    <tr ng-repeat="log in logs">
+      <td>{{log.id}}</td>
+      <td>{{log.date}}</td>
+      <td>{{log.description}}</td>
+    </tr>
+  </table>
+</div>
